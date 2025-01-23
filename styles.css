@@ -1,0 +1,189 @@
+/* styles.css */
+
+/* Define color variables for easy management */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+:root {
+    --primary-color: #1E3A8A;      /* Deep Navy Blue */
+    --secondary-color: #14B8A6;    /* Vibrant Teal */
+    --accent-color: #F87171;       /* Soft Coral */
+    --background-color: #F3F4F6;   /* Light Gray */
+    --text-color: #111827;         /* Dark Charcoal */
+    --button-hover-color: #0D9488; /* Darker Teal */
+}
+
+/* General Styling */
+body {
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif; /* Updated with Google Font */
+    color: var(--text-color);
+}
+
+/* Title Styling */
+.title {
+    text-align: center;
+    padding-top: 10px; /* Reduced from 20px to 10px */
+    color: var(--primary-color);
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+/* Centered Container for Profile, Social Icons, and CV Download */
+.centered-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid var(--primary-color);
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: transform 0.2s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* CV Download Button Styling */
+.cv-download {
+    margin-top: 20px;
+}
+
+.btn-download {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--secondary-color); /* Vibrant Teal */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-download:hover {
+    background-color: var(--button-hover-color); /* Darker Teal */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    overflow: hidden;
+    background-color: var(--primary-color);
+    position: fixed;
+    top: 0.01;
+    width: 100%;
+    z-index: 1000;
+    height: 60px; /* Ensures navbar height consistency */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 20px; /* Adjusted padding for better alignment */
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+/* Add smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Add scroll margin to headers to offset fixed navbar */
+h2 {
+    scroll-margin-top: 60px; /* Matches navbar height */
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 5px;
+}
+
+/* Project Images Styling */
+.project-img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain; /* Prevents cropping */
+    border-radius: 10px;
+    border: 2px solid var(--secondary-color);
+    margin-bottom: 20px; /* Space between images */
+    background-color: white; /* Ensures images stand out against background */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.project-img:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+/* Certification Images Styling */
+.certificate-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid var(--secondary-color);
+    margin-bottom: 20px; /* Space between images */
+    background-color: white;
+}
+
+/* Skill Boxes Styling */
+.skill-box {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.skill-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Adjust content padding to prevent overlap with navbar */
+.main-content {
+    padding-top: 40px; /* Reduced padding as per earlier adjustment */
+}
+
+/* Optional: Footer Styling */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    margin-top: 40px;
+    border-top: 2px solid var(--secondary-color);
+}
