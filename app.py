@@ -142,6 +142,12 @@ def web_portfolio():
     st.markdown('<h2 id="projects">Projects</h2>', unsafe_allow_html=True)
     
     projects = [
+         {
+            "title": "DeepSeek R1: AI That Thinks",
+            "description": "DeepSeek R1 Chatbot is a personal AI assistant using the DeepSeek R1 model on Ollama. Built with Streamlit and LangChain, it features an intuitive interface, logical response handling, and advanced reasoning.",
+            "github_link": "https://github.com/abhishekumarsingh785/deepseekr1-chatbot",
+            "image": "deepseekr1.png"
+        },
         {
             "title": "Calorie Calculator App using multimodel LLM",
             "description": "A multimodal LLM-powered app that calculates calorie intake from food images, provides dietary suggestions, and is deployed on Azure for easy accessibility.",
@@ -173,12 +179,6 @@ def web_portfolio():
             "description": "This project showcases an Agentic Stock Analysis System, built using Microsoft's AutoGen framework. The system leverages a team of autonomous AI agents to collaboratively analyze stock performance, generate financial reports, and visualize data—all with minimal human intervention.",
             "github_link": "https://github.com/abhishekumarsingh785/financial-analysis-with-agents",
             "image": "autogen.png"
-        },
-         {
-            "title": "DeepSeek R1: AI That Thinks",
-            "description": "DeepSeek R1 Chatbot is a personal AI assistant using the DeepSeek R1 model on Ollama. Built with Streamlit and LangChain, it features an intuitive interface, logical response handling, and advanced reasoning.",
-            "github_link": "https://github.com/abhishekumarsingh785/deepseekr1-chatbot",
-            "image": "deepseekr1.png"
         },
         {
             "title": "Shakesperean Text generator",
