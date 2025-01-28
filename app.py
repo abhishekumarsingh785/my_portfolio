@@ -174,6 +174,12 @@ def web_portfolio():
             "github_link": "https://github.com/abhishekumarsingh785/financial-analysis-with-agents",
             "image": "autogen.png"
         },
+         {
+            "title": "DeepSeek R1: AI That Thinks",
+            "description": "DeepSeek R1 Chatbot is a personal AI assistant using the DeepSeek R1 model on Ollama. Built with Streamlit and LangChain, it features an intuitive interface, logical response handling, and advanced reasoning. Users can interact with the model via command-line or the chatbot for a seamless experience.",
+            "github_link": "https://github.com/abhishekumarsingh785/deepseekr1-chatbot",
+            "image": "deepseekr1.png"
+        },
         {
             "title": "Shakesperean Text generator",
             "description": "Built a GPT-2 architecture from scratch, pre-trained on the complete works of Shakespeare using Python and PyTorch.",
