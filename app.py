@@ -149,8 +149,8 @@ def web_portfolio():
             "image": "deepseekr1.png"
         },
         {
-            "title": "Calorie Calculator App using multimodel LLM",
-            "description": "A multimodal LLM-powered app that calculates calorie intake from food images, provides dietary suggestions, and is deployed on Azure for easy accessibility.",
+            "title": "Calorie Calculator App using multimodel LLM deployed on Azure",
+            "description": "A multimodal LLM-powered app that calculates calorie intake from food images, provides dietary suggestions, and is deployed on Azure via docker and Azure Container Registry for easy accessibility.",
             "github_link": "https://github.com/abhishekumarsingh785/Calorie_Counter",
             "deployed_link": "https://caloriecalculatorv1.azurewebsites.net/",
             "image": "calorie_calculator.png"
