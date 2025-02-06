@@ -84,7 +84,7 @@ def web_portfolio():
     <div class="title">
         <span style='font-size: 32px;'>Hello! I'm Abhishek Kumar Singh</span> 👋
     </div>
-    <div class="subtitle">Data Scientist and GenAI Engineer</div>
+    <div class="subtitle">Data Science and GenAI Engineer</div>
     <div class="centered-container">
         <img src="{profile_img}" class="profile-pic">
         <div class="social-icons">{social_icons_html}</div>
@@ -113,7 +113,7 @@ def web_portfolio():
     
     # LatentView Analytics Experience
     with st.container():
-        st.subheader("Data Scientist, LatentView Analytics")
+        st.subheader("Senior Analyst, LatentView Analytics")
         st.write("📍 Chennai, India | 🗓️ Oct 2021 - Jul 2023")
         st.markdown("""
         - Developed and deployed a chatbot using an LLM, hosted on Azure Functions, to convert natural language input into SQLqueries for database retrieval. Built the frontend with Power Platform and integrated it into Power BI.
